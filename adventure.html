@@ -404,7 +404,7 @@
         toast.classList.remove('show'); void toast.offsetWidth; toast.classList.add('show');
         entities = [];
         setTimeout(function () {
-          if (state !== 'playing') return;
+          if (state !== 'clearing') return;
           if (level >= LEVELS.length - 1) {
             winGame();
           } else {
